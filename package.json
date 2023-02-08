@@ -1,0 +1,24 @@
+{
+  "name": "pracregistrar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./public/styles.css",
+    "watch": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dale0311/pracRegistrar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dale0311/pracRegistrar/issues"
+  },
+  "homepage": "https://github.com/Dale0311/pracRegistrar#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
